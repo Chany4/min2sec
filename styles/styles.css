@@ -1,11 +1,25 @@
-div{
-    margin: 30px;
+body{
+    background-image:linear-gradient(to bottom left, black, grey ,white) ;
+    background-repeat:no-repeat ;
+    height: 100%vh;
 }
 
+div{
+    margin: 30px;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 /* Minute to Seconds */
 
 .M2S{
     width: 50%;
     background-color: blueviolet;
     border: 2px solid black;
+    align-self: center;
 }

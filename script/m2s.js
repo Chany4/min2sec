@@ -8,3 +8,5 @@ let m2sPara = document.querySelector('#m2s_para');
 m2sButn.addEventListener('click', ()=>{
     m2sPara.innerHTML = [(m2sVal1.value*60) + ' Seconds']
 })
+
+
